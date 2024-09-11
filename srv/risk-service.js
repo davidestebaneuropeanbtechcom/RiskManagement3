@@ -97,7 +97,7 @@ module.exports = cds.service.impl(async function () {
             headers: {
                 apikey: process.env.apikey,
             }
-        });
+        });      
 
         // Convert in a map for easier lookup
         const bpMap = {};
